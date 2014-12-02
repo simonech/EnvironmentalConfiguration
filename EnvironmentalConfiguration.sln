@@ -12,7 +12,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonFiles", "CommonFiles", "{D12E7AD1-29A0-4B2D-8CD3-108662583437}"
 	ProjectSection(SolutionItems) = preProject
 		EnvironmentalConfiguration.Test\Properties\AssemblyInfo.cs = EnvironmentalConfiguration.Test\Properties\AssemblyInfo.cs
-		Package.nuspec = Package.nuspec
 	EndProjectSection
 EndProject
 Global
