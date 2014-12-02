@@ -2,7 +2,6 @@
 <package >
   <metadata>
     <id>EnvironmentalConfiguration</id>
-    <version>1.0.0</version>
     <authors>simonech</authors>
     <owners>simonech</owners>
     <licenseUrl>https://raw.githubusercontent.com/simonech/EnvironmentalConfiguration/master/LICENSE</licenseUrl>
