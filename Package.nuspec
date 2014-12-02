@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EnvironmentalConfiguration</id>
+    <version>1.0.0</version>
+    <authors>simonech</authors>
+    <owners>simonech</owners>
+    <licenseUrl>https://raw.githubusercontent.com/simonech/EnvironmentalConfiguration/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/simonech/EnvironmentalConfiguration</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Lightweight multiple environment aware configuration library.</description>
+    <releaseNotes>First Release of the library.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>configuration</tags>
+  </metadata>
+</package>
