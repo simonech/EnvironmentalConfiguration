@@ -9,9 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentalConfiguration.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentalConfiguration.Sample", "EnvironmentalConfiguration.Sample\EnvironmentalConfiguration.Sample.csproj", "{15D4CEFD-76B4-440E-8708-A025E0194FF1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssemblyInfo", "AssemblyInfo", "{D12E7AD1-29A0-4B2D-8CD3-108662583437}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonFiles", "CommonFiles", "{D12E7AD1-29A0-4B2D-8CD3-108662583437}"
 	ProjectSection(SolutionItems) = preProject
 		EnvironmentalConfiguration.Test\Properties\AssemblyInfo.cs = EnvironmentalConfiguration.Test\Properties\AssemblyInfo.cs
+		Package.nuspec = Package.nuspec
 	EndProjectSection
 EndProject
 Global
