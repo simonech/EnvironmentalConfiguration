@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace EnvironmentalConfiguration.Test
 {
     [TestClass]
-    public class HierarchicalConfigurationManagerTest
+    public class HierarchicalConfigurationManagerTests
     {
         [TestMethod]
         public void ShouldGetNormalConfigurationKey()

@@ -20,6 +20,8 @@ namespace EnvironmentalConfiguration
             _configurationReader = configurationReader;
         }
 
+        internal AppSettingsBasedConfigurationReader(): this(new ConfigFileBasedConfigurationReader()) {}
+
         public NameValueCollection GetAppSettings(string environment=null)
         {
             NameValueCollection collection = new NameValueCollection();

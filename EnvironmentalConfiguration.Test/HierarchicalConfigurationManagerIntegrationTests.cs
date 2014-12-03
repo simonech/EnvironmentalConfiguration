@@ -4,10 +4,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace EnvironmentalConfiguration.Test
 {
     [TestClass]
-    public class HierarchicalConfigurationManagerIntegrationTest
+    public class HierarchicalConfigurationManagerIntegrationTests
     {
         [TestMethod]
-        [DeploymentItem("App.Config")]
         public void ShouldReadCorrectConfigurationFromFile()
         {
             ConfigFileBasedConfigurationReader configurationReader = new ConfigFileBasedConfigurationReader();
@@ -22,7 +21,6 @@ namespace EnvironmentalConfiguration.Test
         }
 
         [TestMethod]
-        [DeploymentItem("App.Config")]
         public void ShouldOverrideEnvFromCode()
         {
             ConfigFileBasedConfigurationReader configurationReader = new ConfigFileBasedConfigurationReader();
@@ -36,5 +34,22 @@ namespace EnvironmentalConfiguration.Test
             Assert.AreEqual("value1", settings["myKey1"]);
             Assert.AreEqual("value2Test", settings["myKey2"]);
         }
+
+
+        
+        [TestMethod]
+        public void ShouldWorkWithDefaultInstance()
+        {
+            EnvironmentalConfigurationManager config = new EnvironmentalConfigurationManager();
+            config.Environment = "test";
+
+            var settings = config.AppSettings;
+
+            Assert.AreEqual(2, settings.Count);
+            Assert.AreEqual("value1", settings["myKey1"]);
+            Assert.AreEqual("value2Test", settings["myKey2"]);
+        }
+
+
     }
 }

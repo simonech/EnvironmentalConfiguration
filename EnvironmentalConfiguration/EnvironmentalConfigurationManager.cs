@@ -11,14 +11,17 @@ namespace EnvironmentalConfiguration
 {
     public class EnvironmentalConfigurationManager
     {
-        
-        private IAppSettingsReader _appSettingsReader;
+
+        private readonly IAppSettingsReader _appSettingsReader;
 
         public EnvironmentalConfigurationManager(IAppSettingsReader appSettingsReader)
         {
             _appSettingsReader = appSettingsReader;
             Environment = _appSettingsReader.GetEnvironment();
         }
+
+        public EnvironmentalConfigurationManager()
+            : this(new AppSettingsBasedConfigurationReader()) {}
 
         /// <summary>
         /// The list of configurations

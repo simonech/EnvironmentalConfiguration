@@ -53,8 +53,9 @@
     <Compile Include="..\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="HierarchicalConfigurationManagerTest.cs" />
-    <Compile Include="HierarchicalConfigurationManagerIntegrationTest.cs" />
+    <Compile Include="HierarchicalConfigurationManagerTests.cs" />
+    <Compile Include="HierarchicalConfigurationManagerIntegrationTests.cs" />
+    <Compile Include="ConfigurationStaticInstanceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EnvironmentalConfiguration\EnvironmentalConfiguration.csproj">
@@ -63,9 +64,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="App.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

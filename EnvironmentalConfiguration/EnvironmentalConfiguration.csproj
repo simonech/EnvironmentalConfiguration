@@ -45,6 +45,7 @@
     </Compile>
     <Compile Include="AppSettingsBasedConfigurationReader.cs" />
     <Compile Include="ConfigFileBasedConfigurationReader.cs" />
+    <Compile Include="Configuration.cs" />
     <Compile Include="EnvironmentalConfigurationManager.cs" />
     <Compile Include="IAppSettingsReader.cs" />
     <Compile Include="IConfigurationReader.cs" />
