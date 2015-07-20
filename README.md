@@ -5,8 +5,3 @@ EnvironmentalConfiguration
 [![NuGet version](https://badge.fury.io/nu/EnvironmentalConfiguration.svg)](http://badge.fury.io/nu/EnvironmentalConfiguration)
 
 A lightweight configuration library for .NET projects, built to support configuration for multiple environments from within the same configuration file.
-
-Status
-======
-
-Temporarly on hold
