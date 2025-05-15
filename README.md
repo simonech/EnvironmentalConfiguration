@@ -1,3 +1,6 @@
+This was a small library I developed to be able to keep different values of appsetting for different environment. It was built for .NET 4.
+It is now obsolete.
+
 EnvironmentalConfiguration
 ==========================
 
